@@ -1,365 +1,325 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Troop680">
-
-    <title>Troop 680 - Rancho Bernardo</title>
-
- 
-
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-    <!-- Favicons -->
-    <link rel="icon" href="assets/favicon/favicon.ico">
-
-
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      .carousel-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .featurette-img{
-        width: 500px;
-        height: 500px;
-        object-fit: cover;
-      }
-      .txt-shadow{
-        text-shadow: 4px 2px 6px black;
-      }
-      .body-background{
-        background-color: #d1cecd; 
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="assets/css/carousel.css" rel="stylesheet">
-  </head>
-
-  <body class="body-background">
-    
-<header>
-  <nav class="navbar navbar-expand-md  fixed-top " style="background-color: #FF6200;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Troop 680 </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://tmweb.troopmaster.com/mysite/Troop680">TroopMaster</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Join680" >Join Troop 680</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#calendar" >Calendar</a>
-          </li>
-        </ul>
-        <!--form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form-->
-      </div>
-    </div>
-  </nav>
-</header>
-
-<main>
-
-<!-- Rotating caroousel at top of the page DOWN BELOW -->
-
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="carousel-img"  src="assets/images/2023 Colorado River.jpg" aria-hidden="true" focusable="false">
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1 class="txt-shadow">Canoeing</h1>
-            <p class="txt-shadow">Colorado River</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="carousel-img"  src="assets/images/2023 MT JACINTO.jpg" aria-hidden="true" focusable="false">
-        
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1 class="txt-shadow">Backpacking</h1>
-            <p class="txt-shadow">Climbing Mt. Jacinto</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="carousel-img"  src="assets/images/2023 Biking.jpg" aria-hidden="true" focusable="false">
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1 class="txt-shadow">Biking</h1>
-            <p class="txt-shadow">A day around Lake Hodges</p>
-            <p><a class="btn btn-lg btn-warning" href="https://www.flickr.com/photos/troop680/albums/">Browse gallery</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-<!-- ^^^^ Rotating caroousel at top of the page UP ABOVE ^^^^ -->
-
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-
-  <div class="container marketing">
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-4" id="Join680">
-        <img class="bd-placeholder-img rounded-circle"  width="140" height="140" src="assets/images/canoe-tired.jpg" aria-hidden="true" focusable="false">
-
-        <h2>Join Troop 680</h2>
-        <p>Meetings </p>
-        <p><span class="fw-bold">When:</span> Every Monday PUSD has school (and summers)</p>
-        <p><span class="fw-bold">Where:</span> Rancho Bernardo Community Church
-          17010 Pomerado Road, San Diego <a href="https://www.google.com/maps/place/Rancho+Bernardo+Community+Presbyterian+Church/@33.02,-117.0645193,17z/data=!3m1!4b1!4m6!3m5!1s0x80dbf0db57f865cd:0x8323f9ae06e318f7!8m2!3d33.02!4d-117.0619444!16s%2Fg%2F1tzlz7t2?entry=ttu"> (map)</a></p>
-        <p><a class="btn btn-secondary" href="#contact">Contact Us &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img class="bd-placeholder-img rounded-circle"  width="140" height="140" src="assets/images/joshuasquare.jpg" aria-hidden="true" focusable="false">
-
-        <h2>Photos</h2>
-        <p>See our Flickr photo albums</p>
-        <p>We currently have over 500 albums and thousands of photos </p>
-        <p><a class="btn btn-secondary" href="https://www.flickr.com/photos/troop680/albums/">Photos &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img class="bd-placeholder-img rounded-circle"  width="140" height="140" src="assets/images/eagle.jpg" aria-hidden="true" focusable="false">
-
-        <h2>Advancement</h2>
-        <p>Since the troops founding in 1969 until January 2024, there have been over 200 Eagle Scouts!</p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-bold">Join Troop 680! <span class="text-muted fw-light">Your adventure begins </span></h2>
-        <p class="lead">Troop 680 is a high adventure troop. </p>
-        <p>What does High Adventure mean to Troop 680? We plan for an average of one outing a weekend. Some outings are a weekend backpacking trip, others are a several hours serving our local community. </p>
-        <p>Additionally, during Poway Unified School District breaks we plan a high adventure outing to include canoeing the Colorado River, hiking the Grand canyon, or backpacking on Catalina Island.</p>
-    
-
-      </div>
-      <div class="col-md-5">
-        <img class="featurette-img img-fluid mx-auto" src="assets/images/canoe-tired.jpg">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-bold"> Active Troop<span class="text-muted fw-light"> </span></h2>
-        <p class="lead">We have many outings planned. </p>
-        <p> We encourage everyone to attend as many outings as they can. Because we plan an activity for nearly every weekend, if you have sports or other activities, you'll still be able to participate. </p>
-        <p> An average month includes a backpacking trip, a service outing, and additional hiking, biking and canoeing as available.</p>
-        <p> We schedule three car camping trips a year. 1) Webelos Woods where we recruit new Webelos. 2) Our Spring Court-of-Honor where we invite families to camp with us, and 3) Summer Camp. </p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img class="featurette-img img-fluid mx-auto" src="assets/images/service.jpg">
-
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-bold">History <span class="text-muted fw-light"> Since 1969</span></h2>
-        <p class="lead">We've been in the community for over 50 years.</p>
-        <p>
-          The Troop was first charted in September of 1969. Burl Howard, Howard Larson and George Braun felt that Rancho Bernardo was growing large enough to support a Troop of its own. Burl became the first Scoutmaster, Howard became the awards chairman and George became the committee chairperson.
-        </p>
-        <p>  
-          “The concept was to be an outdoor troop with lots of hiking and exploring. Highlights of the Scout year were to be training for weeklong treks, water safety preparation and anything else that we could think of that would be fun for the Scouts and could include the fathers.” The original charter members were Greg and Mike Braun, John and Mike Colgan, Paul Larson, Mark Howard, William Tillerson, David Tillerson and Steve Telian. This membership rapidly grew with a large number of transfers and new members.
-        </p>
-        <p>
-          The Troop was originally sponsored by the Rotary Club of Rancho Bernardo. It is now sponsored by the Rancho Bernardo Community Church. We have met in a number of locations as we grew, including Hope Methodist Church, The Rancho Bernardo Swim and Tennis Club and now at the Rancho Bernardo Community Church.
-        </p>
-        <p>
-          In the early history of the Troop, Mr. Braun helped to establish the co-ed Explorer Post 2680. This group provided an opportunity for older Scouts and teenage girls to participate in High Adventure activities, in which it is reported that the girls were quite able to “hold their own.” Mr. Braun was transferred to Colorado and the Post was deactivated with his transfer and the aging out of most of the Scouts. 
-        </p>
-        <p>
-          A co-ed Venture Crew 680 was established providing an opportunity for older boys and girls to participate in many high adventure activities such as Philmont,  Boundary Waters, Sierra Treks and many Troop outings. Bud Fosdick, Dorothy Long, Chris Barr and Barbara Weeks were Crew Advisors during this time period before the Crew was deactivated in 2009.
-        </p>
-        <p>
-          WHERE WE HAVE BEEN
-          Out of State Hiking - Grand Canyon Rim-to-Rim-to-Rim, Havasuapi, Zion, Great Basin, Rainbow Bridge, Paria Canyon, Grand Gulch
-        </p>
-        <p> 
-          In State Hiking - John Muir Trail thru hike, Sierra Nevada Mountains, Mt. Whitney Trail & Mountaineers Route, San Gorgonio, Nine Peaks, San Jacinto, San Bernardino, San Antonio, Baden-Powell, Anza-Borrego State Park, Joshua Tree, Death Valley, Pacific Crest Trail (San Diego section)
-        </p>
-        <p>
-          Cycling - Oregon to San Francisco, San Francisco to San Diego, Death Valley, Double Century
-        </p>
-        <p>
-          Canoeing - Minnesota's Boundary Waters, Green River, Colorado River from Hoover Dam to Imperial Dam
-        </p>
-        <p>
-          World Jamborees - Norway, Holland, Australia, England, Korea
-        </p>
-        <p>
-          National Scout Camps - New Mexico's Philmont, Alaska's Northern Lights, Florida Sea Base, Minnesota's Northern Tier Boundary Waters</p>
-
-      </div>
-      <div class="col-md-5">
-        <img class="featurette-img img-fluid mx-auto" src="assets/images/San Jacinto View.jpg">
-
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-bold" id="history"> More About 680 <span class="text-muted fw-light"> </span></h2>
-        <div class="sqs-html-content">
-          <p>Troop 680's History and Background</h2>
-            <p >Troop 680 was founded in 1969 and is located in Rancho Bernardo, a northern community within the city of San Diego, California. We are a member of the Rancho Mesa Zone and the San Diego-Imperial Council.&nbsp; Our Troop’s Chartered Organization is the Rancho Bernardo Community Church.&nbsp; The Troop has about 60-65 registered Scouts and over 50 registered adult Scouters.</p><p>Our Scouts' Achievements – Milestones &amp; Records</h2>
-            <p >Since 1969 the Troop has ranked among the most active in San Diego and has a very rich tradition of outdoor activities.&nbsp; We have achieved as of August 2014:</p><ul>
-            <p >149 Scouts earning their Eagle rank</p>
-            <p >720 total registered Scouts and Venture Crew</p>
-            <p >164,915 miles of hiking or nearly 7 times around Earth</p>
-            <p >33,708 nights of camping</p>
-            <p >77,995 miles of cycling</p>
-            <p >64,735 miles of canoeing</p></li></ul>
-            <h3>Troop 680 Mission Statement</h3>
-            <p >Troop 680 emphasizes Fun, Leadership, and Teamwork. We have Fun at great outings. We generally have two per month and they range from advanced backpacks such as "The Sierra Trek", to day hikes, bike rides, canoe trips, and backpacking in the local mountains or desert. We emphasize Leadership through intensive training followed by broad responsibility. Our ideal is to have Scouts manage all Troop functions autonomously. The adult leadership is the coaching staff, offering guidance, encouragement, and security. Teamwork is developed through competitive team building and as a necessary adjunct to encouraging all ability and age ranges on most of our high adventure outings.</p>
-            <h3>Visit a Troop 680 meeting</h3>
-            <p >We welcome you to join us for a Scout meeting.&nbsp; We meet at Rancho Bernardo Community Church located at 17010 Pomerado Road, San Diego (meeting room is in the lower Middle School on the south side of the facility).&nbsp; Meetings times for the general meeting are Monday nights from 7:00 PM to 8:30PM.</p>
-            
-            <h3>Outings &amp; Events </h3>
-            <p> What we DO is out of the ordinary!&nbsp; (It’s not car camping with Grandpa)</p>
-            <p >Outings – T680 offers a wide variety of backpacking, biking and water outings.&nbsp; We have at least one overnight outing a month.&nbsp; They range from beginner to challenging and are often multi-tier so all can participate.&nbsp; Some of our favorite outings are:</p><ul>
-            <p >Day hikes – Explore our local mountains, desert and ocean with a fun 10-mile day hikes. These are great training for the more adventurous backpacks.</p>
-            <p >Overnight hikes – The Pacific Crest Trail, California Riding &amp; Hiking Trail, Joshua Tree National Park and Anza Borrego Desert are great locations we visit for 15-30 mile weekend backpack trips. We’ve even hiked all the way across Anza-Borrego State Park!</p>
-            <p >Snow Camp – During the winter we ride the tram up San Jacinto Mountain for a 3-mile cross-country hike with snow shoes and crampons, set camp for the night and test our cold weather gear.</p>
-            <p >Weekend canoe trips on the Colorado River – Canoe from the base of Hoover Dam through the Black Canyon, camp along the river’s edge, it’s awesome and families are welcome.</p>
-            <p >Whitewater Rafting – Two days chocked full of thrilling whitewater, stunning scenery, and of course water fights. Bring your water shoes and swimsuit and attitude for some all-out fun. Families are welcome on these too.</p>
-            <p >San Antonio, San Jacinto and San Gorgonio high elevation hikes – Summit Southern California’s highest mountain tops, test your strength and will and get in shape for your upcoming Sierra Trek.</p>
-            <p >9 Peaks Honor Hike – This is a capstone hike for local high elevation treks. Summit nine 10k’+ peaks along the San Gorgonio massif over a three-day, 30 mile trek.</p>
-            <p >Sierra Treks – High elevation, multi-day backpacking treks covering 40-100 miles through some of the country’s most rugged and beautiful terrain. Catch a rainbow trout, stand upon a mountaintop, see incredible scenery and solitude and have an unforgettable experience. Past trips have taken us to Hetch Hetchy (Yosemite NP), Rae Lakes and High Sierra Trail (Sequoia-Kings Canyon NP).</p>
-            <p >Mt. Whitney Mountaineers Route – Summit Whitney with true bragging rights by following the Mountaineers Route. This may not be for everyone, but we do it.</p>
-            <p >Grand Canyon “Rim-to-Rim-to-Rim” – an ultimate brag, hike from one side of the Grand Canyon to the other, and back. We hike, no mules allowed.</p>
-            <p >Northern Tier: Canoe the Boundary Waters of Minnesota – This is a multi-day trip canoeing one of the largest wilderness areas in the Country. Follow historic portage routes and enjoy campfires, fishing, and camaraderie.</p>
-            <p >Philmont Scout Ranch – Take a 12 day hike through the historic National Scout Camp. Every day is filled with activities like shooting rifles and shotguns, riding horses, climbing, and campfire stories.</p>
-            <p >Seabase: SCUBA dive, sail, snorkel, etc. during our treks to Seabase in Florida or the U.S. Virgin Islands.</p>
-            <p >Bicycle the California Coast – We have ridden from Oregon to San Diego on the Coast Highway, all 1,000+ miles, so pump up those tires and get riding.</p>
-            <p >Tall Ship Sailing – Take a multi-day sailing voyage offshore to Catalina on a Tall Ship, climb the mast, navigate, and bring your sea legs. It’s both scary and fun.</p></ul>
-            <h3>Community Service</h3>
-            <p>Throughout the year the Troop also participates in community service events:</p>
-            
-            <ul>
-              <p >Trail Building – Help build hiking trail at BSA Camp Mataguay. Dirt, sweat and blisters finished up with pie from the Julian Pie Shop.</p>
-              <p >Souper Bowl – Help feed the hungry by collecting canned food with our Chartered Organization, Rancho Bernardo Community Church.</p>
-              <p >Food Packing - Assist our Chartered Organization with their annual food packing event where we help set-up and pack 50,000 meals in one day.</p>
-              <p >Rancho Bernardo Community Council – Volunteer service for our local community with their various community events like RB Safety Fair, Earth Day, and the annual Hot Cocoa with Santa and Snow Days in the Park.</p>
-              <p >Fort Rosecrans Flags – On Memorial Day, the Troop places United States Flags on the graves of fallen soldiers.</p>
-              <p >Challenged Athletes Foundation Annual Triathlon Challenge - The troop volunteers with trash pick-up (and recycling) and race course management.</p></li></ul>
-              
-            <h3>Camp </h3>
-             <p> While the majority of the Troops outings are high-adventure, we do a few events where you can bring the entire family. </p>
-              <ul>
-              <p >Fall and Spring Family Camp – Twice a year we invite the whole family for a weekend of challenge games, skill building, group meals and of course a fabulous campfire program. It’s a great way to get to know other Scout families.</p>
-              <p >Survival Camp – Practice your skills using your 10 essentials. Can you light a fire without matches, build a shelter, or find North without a compass?</p>
-              <p >Summer Camp – A one-week long BSA summer camp where Scouts learn skills and work on rank advancements. We visit camps all over California, including Catalina and the Sierras.</p>
-            </ul>
-          <h3>Just for Fun</h3> 
-          <p> A few times a year we break out the snow sports gear for a one-day snowboard/ski trip, find that fishing rod and try to catch some fish, and go sailing on Mission Bay.&nbsp;</p>
-        </div>
-
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img class="featurette-img img-fluid mx-auto" src="assets/images/T680+1971_0120.jpg">
-
-      </div>
-    </div>
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-bold" id="contact"> Contact Us <span class="text-muted fw-light"> </span></h2>
-        <p><a class="lead" href="mailto:scoutmaster@troop680.org"> Scoutmaster </a> </p>
-        <p><a class="lead" href="mailto:Membership@troop680.org"> Membership </a></p>
-        <p><a class="lead" href="mailto:Webmaster@troop680.org"> Webmaster </a></p>
-
-
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img class="featurette-img img-fluid mx-auto" src="assets/images/canoe-tired.jpg">
-
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
-    <div  id="calendar">
-      <iframe src="https://calendar.google.com/calendar/embed?src=4degauaj8aog9osvn9rtfvj7lov2c447%40import.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-    </div>
-
-  </div><!-- /.container -->
-
-
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <p id="copyright"></p>
-  </footer>
-</main>
-
-
-  <script src="assets/js/copyright.js"></script>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Troop680">
+        <title>Troop 680 - Rancho Bernardo</title>
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- Favicons -->
+        <link rel="icon" href="assets/favicon/favicon.ico">
+        <style>
+            .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+            }
+            @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+            }
+            }
+            .carousel-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            }
+            .featurette-img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+            }
+            .txt-shadow{
+            text-shadow: 4px 2px 6px black;
+            }
+            .body-background{
+            background-color: #d1cecd; 
+            }
+        </style>
+        <!-- Custom styles for this template -->
+        <link href="assets/css/carousel.css" rel="stylesheet">
+    </head>
+    <body class="body-background">
+        <header>
+            <nav class="navbar navbar-expand-md  fixed-top " style="background-color: #FF6200;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Troop 680 </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://tmweb.troopmaster.com/mysite/Troop680">TroopMaster</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Join680" >Join Troop 680</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#calendar" >Calendar</a>
+                            </li>
+                        </ul>
+                        <!--form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form-->
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- Rotating caroousel at top of the page DOWN BELOW -->
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="carousel-img"  src="assets/images/2023 Colorado River.jpg" aria-hidden="true" focusable="false">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1 class="txt-shadow">Canoeing</h1>
+                                <p class="txt-shadow">Colorado River</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carousel-img"  src="assets/images/2023 MT JACINTO.jpg" aria-hidden="true" focusable="false">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1 class="txt-shadow">Backpacking</h1>
+                                <p class="txt-shadow">Climbing Mt. Jacinto</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carousel-img"  src="assets/images/2023 Biking.jpg" aria-hidden="true" focusable="false">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1 class="txt-shadow">Biking</h1>
+                                <p class="txt-shadow">A day around Lake Hodges</p>
+                                <p><a class="btn btn-lg btn-warning" href="https://www.flickr.com/photos/troop680/albums/">Browse gallery</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- ^^^^ Rotating caroousel at top of the page UP ABOVE ^^^^ -->
+            <!-- Marketing messaging and featurettes
+                ================================================== -->
+            <!-- Wrap the rest of the page in another container to center all the content. -->
+            <div class="container marketing">
+                <!-- Three columns of text below the carousel -->
+                <div class="row">
+                    <div class="col-lg-4" id="Join680">
+                        <img class="bd-placeholder-img rounded-circle"  width="140" height="140" src="assets/images/canoe-tired.jpg" aria-hidden="true" focusable="false">
+                        <h2>Join Troop 680</h2>
+                        <p>Meetings </p>
+                        <p><span class="fw-bold">When:</span> Every Monday PUSD has school (and summers)</p>
+                        <p><span class="fw-bold">Where:</span> Rancho Bernardo Community Church
+                            17010 Pomerado Road, San Diego <a href="https://www.google.com/maps/place/Rancho+Bernardo+Community+Presbyterian+Church/@33.02,-117.0645193,17z/data=!3m1!4b1!4m6!3m5!1s0x80dbf0db57f865cd:0x8323f9ae06e318f7!8m2!3d33.02!4d-117.0619444!16s%2Fg%2F1tzlz7t2?entry=ttu"> (map)</a>
+                        </p>
+                        <p><a class="btn btn-secondary" href="#contact">Contact Us &raquo;</a></p>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <img class="bd-placeholder-img rounded-circle"  width="140" height="140" src="assets/images/joshuasquare.jpg" aria-hidden="true" focusable="false">
+                        <h2>Photos</h2>
+                        <p>See our Flickr photo albums</p>
+                        <p>We currently have over 500 albums and thousands of photos </p>
+                        <p><a class="btn btn-secondary" href="https://www.flickr.com/photos/troop680/albums/">Photos &raquo;</a></p>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <img class="bd-placeholder-img rounded-circle"  width="140" height="140" src="assets/images/eagle.jpg" aria-hidden="true" focusable="false">
+                        <h2>Advancement</h2>
+                        <p>Since the troops founding in 1969 until January 2024, there have been over 200 Eagle Scouts!</p>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+                <!-- /.row -->
+                <!-- START THE FEATURETTES -->
+                <hr class="featurette-divider">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading fw-bold">Join Troop 680! <span class="text-muted fw-light">Your adventure begins </span></h2>
+                        <p class="lead">Troop 680 is a high adventure troop. </p>
+                        <p>What does High Adventure mean to Troop 680? We plan for an average of one outing a weekend. Some outings are a weekend backpacking trip, others are a several hours serving our local community. </p>
+                        <p>Additionally, during Poway Unified School District breaks we plan a high adventure outing to include canoeing the Colorado River, hiking the Grand canyon, or backpacking on Catalina Island.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="featurette-img img-fluid mx-auto" src="assets/images/canoe-tired.jpg">
+                    </div>
+                </div>
+                <hr class="featurette-divider">
+                <div class="row featurette">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading fw-bold"> Active Troop<span class="text-muted fw-light"> </span></h2>
+                        <p class="lead">We have many outings planned. </p>
+                        <p> We encourage everyone to attend as many outings as they can. Because we plan an activity for nearly every weekend, if you have sports or other activities, you'll still be able to participate. </p>
+                        <p> An average month includes a backpacking trip, a service outing, and additional hiking, biking and canoeing as available.</p>
+                        <p> We schedule three car camping trips a year. 1) Webelos Woods where we recruit new Webelos. 2) Our Spring Court-of-Honor where we invite families to camp with us, and 3) Summer Camp. </p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img class="featurette-img img-fluid mx-auto" src="assets/images/service.jpg">
+                    </div>
+                </div>
+                <hr class="featurette-divider">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading fw-bold">History <span class="text-muted fw-light"> Since 1969</span></h2>
+                        <p class="lead">We've been in the community for over 50 years.</p>
+                        <p>
+                            The Troop was first charted in September of 1969. Burl Howard, Howard Larson and George Braun felt that Rancho Bernardo was growing large enough to support a Troop of its own. Burl became the first Scoutmaster, Howard became the awards chairman and George became the committee chairperson.
+                        </p>
+                        <p>  
+                            “The concept was to be an outdoor troop with lots of hiking and exploring. Highlights of the Scout year were to be training for weeklong treks, water safety preparation and anything else that we could think of that would be fun for the Scouts and could include the fathers.” The original charter members were Greg and Mike Braun, John and Mike Colgan, Paul Larson, Mark Howard, William Tillerson, David Tillerson and Steve Telian. This membership rapidly grew with a large number of transfers and new members.
+                        </p>
+                        <p>
+                            The Troop was originally sponsored by the Rotary Club of Rancho Bernardo. It is now sponsored by the Rancho Bernardo Community Church. We have met in a number of locations as we grew, including Hope Methodist Church, The Rancho Bernardo Swim and Tennis Club and now at the Rancho Bernardo Community Church.
+                        </p>
+                        <p>
+                            In the early history of the Troop, Mr. Braun helped to establish the co-ed Explorer Post 2680. This group provided an opportunity for older Scouts and teenage girls to participate in High Adventure activities, in which it is reported that the girls were quite able to “hold their own.” Mr. Braun was transferred to Colorado and the Post was deactivated with his transfer and the aging out of most of the Scouts. 
+                        </p>
+                        <p>
+                            A co-ed Venture Crew 680 was established providing an opportunity for older boys and girls to participate in many high adventure activities such as Philmont,  Boundary Waters, Sierra Treks and many Troop outings. Bud Fosdick, Dorothy Long, Chris Barr and Barbara Weeks were Crew Advisors during this time period before the Crew was deactivated in 2009.
+                        </p>
+                        <p>
+                            WHERE WE HAVE BEEN
+                            Out of State Hiking - Grand Canyon Rim-to-Rim-to-Rim, Havasuapi, Zion, Great Basin, Rainbow Bridge, Paria Canyon, Grand Gulch
+                        </p>
+                        <p> 
+                            In State Hiking - John Muir Trail thru hike, Sierra Nevada Mountains, Mt. Whitney Trail & Mountaineers Route, San Gorgonio, Nine Peaks, San Jacinto, San Bernardino, San Antonio, Baden-Powell, Anza-Borrego State Park, Joshua Tree, Death Valley, Pacific Crest Trail (San Diego section)
+                        </p>
+                        <p>
+                            Cycling - Oregon to San Francisco, San Francisco to San Diego, Death Valley, Double Century
+                        </p>
+                        <p>
+                            Canoeing - Minnesota's Boundary Waters, Green River, Colorado River from Hoover Dam to Imperial Dam
+                        </p>
+                        <p>
+                            World Jamborees - Norway, Holland, Australia, England, Korea
+                        </p>
+                        <p>
+                            National Scout Camps - New Mexico's Philmont, Alaska's Northern Lights, Florida Sea Base, Minnesota's Northern Tier Boundary Waters
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="featurette-img img-fluid mx-auto" src="assets/images/San Jacinto View.jpg">
+                    </div>
+                </div>
+                <hr class="featurette-divider">
+                <div class="row featurette">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading fw-bold" id="history"> More About 680 <span class="text-muted fw-light"> </span></h2>
+                        <div class="sqs-html-content">
+                            <p>Troop 680's History and Background
+                            </h2>
+                            <p >Troop 680 was founded in 1969 and is located in Rancho Bernardo, a northern community within the city of San Diego, California. We are a member of the Rancho Mesa Zone and the San Diego-Imperial Council.&nbsp; Our Troop’s Chartered Organization is the Rancho Bernardo Community Church.&nbsp; The Troop has about 60-65 registered Scouts and over 50 registered adult Scouters.</p>
+                            <p>Our Scouts' Achievements – Milestones &amp; Records
+                            </h2>
+                            <p >Since 1969 the Troop has ranked among the most active in San Diego and has a very rich tradition of outdoor activities.&nbsp; We have achieved as of August 2014:</p>
+                            <ul>
+                                <p >149 Scouts earning their Eagle rank</p>
+                                <p >720 total registered Scouts and Venture Crew</p>
+                                <p >164,915 miles of hiking or nearly 7 times around Earth</p>
+                                <p >33,708 nights of camping</p>
+                                <p >77,995 miles of cycling</p>
+                                <p >64,735 miles of canoeing</p>
+                                </li>
+                            </ul>
+                            <h3>Troop 680 Mission Statement</h3>
+                            <p >Troop 680 emphasizes Fun, Leadership, and Teamwork. We have Fun at great outings. We generally have two per month and they range from advanced backpacks such as "The Sierra Trek", to day hikes, bike rides, canoe trips, and backpacking in the local mountains or desert. We emphasize Leadership through intensive training followed by broad responsibility. Our ideal is to have Scouts manage all Troop functions autonomously. The adult leadership is the coaching staff, offering guidance, encouragement, and security. Teamwork is developed through competitive team building and as a necessary adjunct to encouraging all ability and age ranges on most of our high adventure outings.</p>
+                            <h3>Visit a Troop 680 meeting</h3>
+                            <p >We welcome you to join us for a Scout meeting.&nbsp; We meet at Rancho Bernardo Community Church located at 17010 Pomerado Road, San Diego (meeting room is in the lower Middle School on the south side of the facility).&nbsp; Meetings times for the general meeting are Monday nights from 7:00 PM to 8:30PM.</p>
+                            <h3>Outings &amp; Events </h3>
+                            <p> What we DO is out of the ordinary!&nbsp; (It’s not car camping with Grandpa)</p>
+                            <p >Outings – T680 offers a wide variety of backpacking, biking and water outings.&nbsp; We have at least one overnight outing a month.&nbsp; They range from beginner to challenging and are often multi-tier so all can participate.&nbsp; Some of our favorite outings are:</p>
+                            <ul>
+                                <p >Day hikes – Explore our local mountains, desert and ocean with a fun 10-mile day hikes. These are great training for the more adventurous backpacks.</p>
+                                <p >Overnight hikes – The Pacific Crest Trail, California Riding &amp; Hiking Trail, Joshua Tree National Park and Anza Borrego Desert are great locations we visit for 15-30 mile weekend backpack trips. We’ve even hiked all the way across Anza-Borrego State Park!</p>
+                                <p >Snow Camp – During the winter we ride the tram up San Jacinto Mountain for a 3-mile cross-country hike with snow shoes and crampons, set camp for the night and test our cold weather gear.</p>
+                                <p >Weekend canoe trips on the Colorado River – Canoe from the base of Hoover Dam through the Black Canyon, camp along the river’s edge, it’s awesome and families are welcome.</p>
+                                <p >Whitewater Rafting – Two days chocked full of thrilling whitewater, stunning scenery, and of course water fights. Bring your water shoes and swimsuit and attitude for some all-out fun. Families are welcome on these too.</p>
+                                <p >San Antonio, San Jacinto and San Gorgonio high elevation hikes – Summit Southern California’s highest mountain tops, test your strength and will and get in shape for your upcoming Sierra Trek.</p>
+                                <p >9 Peaks Honor Hike – This is a capstone hike for local high elevation treks. Summit nine 10k’+ peaks along the San Gorgonio massif over a three-day, 30 mile trek.</p>
+                                <p >Sierra Treks – High elevation, multi-day backpacking treks covering 40-100 miles through some of the country’s most rugged and beautiful terrain. Catch a rainbow trout, stand upon a mountaintop, see incredible scenery and solitude and have an unforgettable experience. Past trips have taken us to Hetch Hetchy (Yosemite NP), Rae Lakes and High Sierra Trail (Sequoia-Kings Canyon NP).</p>
+                                <p >Mt. Whitney Mountaineers Route – Summit Whitney with true bragging rights by following the Mountaineers Route. This may not be for everyone, but we do it.</p>
+                                <p >Grand Canyon “Rim-to-Rim-to-Rim” – an ultimate brag, hike from one side of the Grand Canyon to the other, and back. We hike, no mules allowed.</p>
+                                <p >Northern Tier: Canoe the Boundary Waters of Minnesota – This is a multi-day trip canoeing one of the largest wilderness areas in the Country. Follow historic portage routes and enjoy campfires, fishing, and camaraderie.</p>
+                                <p >Philmont Scout Ranch – Take a 12 day hike through the historic National Scout Camp. Every day is filled with activities like shooting rifles and shotguns, riding horses, climbing, and campfire stories.</p>
+                                <p >Seabase: SCUBA dive, sail, snorkel, etc. during our treks to Seabase in Florida or the U.S. Virgin Islands.</p>
+                                <p >Bicycle the California Coast – We have ridden from Oregon to San Diego on the Coast Highway, all 1,000+ miles, so pump up those tires and get riding.</p>
+                                <p >Tall Ship Sailing – Take a multi-day sailing voyage offshore to Catalina on a Tall Ship, climb the mast, navigate, and bring your sea legs. It’s both scary and fun.</p>
+                            </ul>
+                            <h3>Community Service</h3>
+                            <p>Throughout the year the Troop also participates in community service events:</p>
+                            <ul>
+                                <p >Trail Building – Help build hiking trail at BSA Camp Mataguay. Dirt, sweat and blisters finished up with pie from the Julian Pie Shop.</p>
+                                <p >Souper Bowl – Help feed the hungry by collecting canned food with our Chartered Organization, Rancho Bernardo Community Church.</p>
+                                <p >Food Packing - Assist our Chartered Organization with their annual food packing event where we help set-up and pack 50,000 meals in one day.</p>
+                                <p >Rancho Bernardo Community Council – Volunteer service for our local community with their various community events like RB Safety Fair, Earth Day, and the annual Hot Cocoa with Santa and Snow Days in the Park.</p>
+                                <p >Fort Rosecrans Flags – On Memorial Day, the Troop places United States Flags on the graves of fallen soldiers.</p>
+                                <p >Challenged Athletes Foundation Annual Triathlon Challenge - The troop volunteers with trash pick-up (and recycling) and race course management.</p>
+                                </li>
+                            </ul>
+                            <h3>Camp </h3>
+                            <p> While the majority of the Troops outings are high-adventure, we do a few events where you can bring the entire family. </p>
+                            <ul>
+                                <p >Fall and Spring Family Camp – Twice a year we invite the whole family for a weekend of challenge games, skill building, group meals and of course a fabulous campfire program. It’s a great way to get to know other Scout families.</p>
+                                <p >Survival Camp – Practice your skills using your 10 essentials. Can you light a fire without matches, build a shelter, or find North without a compass?</p>
+                                <p >Summer Camp – A one-week long BSA summer camp where Scouts learn skills and work on rank advancements. We visit camps all over California, including Catalina and the Sierras.</p>
+                            </ul>
+                            <h3>Just for Fun</h3>
+                            <p> A few times a year we break out the snow sports gear for a one-day snowboard/ski trip, find that fishing rod and try to catch some fish, and go sailing on Mission Bay.&nbsp;</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img class="featurette-img img-fluid mx-auto" src="assets/images/T680+1971_0120.jpg">
+                    </div>
+                </div>
+                <div class="row featurette">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading fw-bold" id="contact"> Contact Us <span class="text-muted fw-light"> </span></h2>
+                        <p><a class="lead" href="mailto:scoutmaster@troop680.org"> Scoutmaster </a> </p>
+                        <p><a class="lead" href="mailto:Membership@troop680.org"> Membership </a></p>
+                        <p><a class="lead" href="mailto:Webmaster@troop680.org"> Webmaster </a></p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img class="featurette-img img-fluid mx-auto" src="assets/images/canoe-tired.jpg">
+                    </div>
+                </div>
+                <hr class="featurette-divider">
+                <!-- /END THE FEATURETTES -->
+                <div  id="calendar">
+                    <iframe src="https://calendar.google.com/calendar/embed?src=4degauaj8aog9osvn9rtfvj7lov2c447%40import.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+            <!-- /.container -->
+            <!-- FOOTER -->
+            <footer class="container">
+                <p class="float-end"><a href="#">Back to top</a></p>
+                <p id="copyright"></p>
+            </footer>
+        </main>
+        <script src="assets/js/copyright.js"></script>
+    </body>
 </html>
