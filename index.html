@@ -320,6 +320,11 @@
                 <p>&copy; <strong id="startCRYear"></strong> - <strong id="currentCRYear"></strong></p>
             </footer>
         </main>
+        <script>
+            window.on('error', (e) => {
+                alert(e.message);
+            });
+        </script>
         <script src="assets/js/copyright.js"></script>
     </body>
 </html>
