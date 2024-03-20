@@ -3,4 +3,4 @@ const dateObject = new Date()
 const currentYear = dateObject.getFullYear()
 
 document.getElementById("startCRYear").textContent = `${startYear}`
-document.getElementById("currentCRYear").textContent = `&{currentYear}`
+document.getElementById("currentCRYear").textContent = `${currentYear}`
